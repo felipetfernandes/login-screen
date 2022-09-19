@@ -13,7 +13,7 @@ body {
     color: #1a202c;
 }
 
-.user {
+.left {
     width: 50%;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@ body {
     background-color: #f7fafc;
 }
 
-.wrapper-user img {
+fugure img {
     width: 27.78vw;
     height: 36.74vh;
 }
@@ -56,7 +56,7 @@ h1 {
     line-height: 33px;
 }
 
-nav h3 {
+.options h3 {
     font-family: 'Lato';
     font-weight: 400;
     font-size: 14px;
@@ -90,7 +90,7 @@ input {
     width: 100%;
 }
 
-nav {
+.options {
     margin-top: 17px;
     margin-bottom: 11px;
     display: flex;

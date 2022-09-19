@@ -50,7 +50,7 @@ input {
     border-radius: 5px;
 }
 
-nav {
+.options {
     margin-top: 28px;
     display: flex;
     justify-content: space-between;
@@ -104,7 +104,8 @@ footer {
 .botton {
     padding: 15px 0 16px 0;
     display: flex;
-    align-items: stretch;
+    align-items: center;
+    text-align: center;
     font-family: "Lato";
     font-style: normal;
     font-weight: 700;

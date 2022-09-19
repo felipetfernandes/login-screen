@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: #1a202c;
+}
+
+.user {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7fafc;
+}
+
+.wrapper-user img {
+    width: 27.78vw;
+    height: 36.74vh;
+}
+
+.login {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-login {
+    width: 24.31vw;
+    max-width: 350px;
+}
+
+h2 {
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1 {
+    margin-top: 7px;
+    margin-bottom: 39px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+}
+
+nav h3 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: #2b6cb0;
+}
+
+a:visited {
+    color: #2b6cb0;
+}
+
+p {
+    margin-bottom: 11px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+input {
+    margin-bottom: 11px;
+    padding-inline: 20px;
+    height: 50px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    width: 100%;
+}
+
+nav {
+    margin-top: 17px;
+    margin-bottom: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+label input {
+    width: 15px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 162px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 15px 0 16px 0;
+    display: flex;
+    align-items: stretch;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 5px;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.button a:visited {
+    color: #fff;
+}
+
+.button1 {
+    margin-top: 28px;
+    background-color: #04C45C;
+}
+
+.button2 {
+    margin-top: 15px;
+    background-color: #1A202C;
+}
+
+.button2 img {
+    margin-right: 11px;
+}
+
